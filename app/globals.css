@@ -90,6 +90,8 @@
 /* Search Form */
 @utility search-form {
   @apply max-w-3xl w-full min-h-[80px] bg-white border-[5px] border-black rounded-[80px] text-[24px] mt-8 px-5 flex flex-row items-center gap-5;
+  position: relative;
+  z-index: 10; 
 }
 
 .search-input:-webkit-autofill,
